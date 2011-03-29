@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* KGAccordionAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 656}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 458}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 633}}";
+			sepNavSelRange = "{123, 0}";
+			sepNavVisRange = "{0, 453}";
 		};
 	};
 	1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 1134}}";
-			sepNavSelRange = "{1289, 0}";
-			sepNavVisRange = "{0, 1378}";
+			sepNavSelRange = "{123, 0}";
+			sepNavVisRange = "{0, 1373}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* KGAccordion */ = {
@@ -86,7 +86,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 166";
 		rLen = 0;
-		rLoc = 5728;
+		rLoc = 5723;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 0;
@@ -168,14 +168,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 742}}";
 			sepNavSelRange = "{1234, 0}";
-			sepNavVisRange = "{149, 1193}";
+			sepNavVisRange = "{0, 1195}";
 		};
 	};
 	1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 2954}}";
-			sepNavSelRange = "{691, 0}";
-			sepNavVisRange = "{301, 843}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 2968}}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 1137}";
 		};
 	};
 	1F86B291134153B700DD87E3 /* PBXTextBookmark */ = {
@@ -202,7 +202,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 69";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 1485;
@@ -212,7 +212,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 69";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 1485;
@@ -252,7 +252,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 38";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1658;
 		vrLoc = 155;
@@ -272,7 +272,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 166";
 		rLen = 0;
-		rLoc = 5728;
+		rLoc = 5723;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 3;
@@ -282,7 +282,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 74";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1436;
 		vrLoc = 839;
@@ -292,7 +292,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 69";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 1485;
@@ -302,7 +302,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 69";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 1485;
@@ -312,7 +312,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 74";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1436;
 		vrLoc = 839;
@@ -322,7 +322,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 38";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1659;
 		vrLoc = 154;
@@ -332,7 +332,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 154;
@@ -342,7 +342,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 71";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 1710;
@@ -361,7 +361,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 191";
 		rLen = 0;
-		rLoc = 5963;
+		rLoc = 5958;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 5064;
@@ -371,7 +371,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1534;
 		vrLoc = 154;
@@ -381,7 +381,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 74";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 807;
@@ -391,7 +391,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 78";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1388;
 		vrLoc = 1265;
@@ -410,7 +410,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 83";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 1948;
@@ -420,7 +420,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 83";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 1948;
@@ -450,7 +450,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -460,7 +460,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 83";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 1948;
@@ -470,7 +470,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 83";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 1948;
@@ -480,7 +480,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 0;
@@ -490,7 +490,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 28";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1534;
 		vrLoc = 154;
@@ -500,7 +500,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1633;
 		vrLoc = 154;
@@ -510,7 +510,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 1770;
@@ -520,7 +520,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 1770;
@@ -530,7 +530,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1635;
 		vrLoc = 154;
@@ -560,7 +560,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 85";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1675;
 		vrLoc = 1099;
@@ -570,7 +570,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -580,7 +580,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 85";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1675;
 		vrLoc = 1099;
@@ -590,7 +590,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -600,7 +600,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 85";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 1099;
@@ -640,7 +640,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -670,7 +670,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1635;
 		vrLoc = 154;
@@ -680,7 +680,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 978;
+		rLoc = 973;
 		rType = 0;
 		vrLen = 1759;
 		vrLoc = 154;
@@ -690,7 +690,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -700,7 +700,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 29";
 		rLen = 15;
-		rLoc = 852;
+		rLoc = 847;
 		rType = 0;
 		vrLen = 1635;
 		vrLoc = 154;
@@ -720,7 +720,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 85";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 0;
@@ -750,7 +750,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -760,7 +760,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -810,7 +810,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 86";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1948;
@@ -830,7 +830,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 1740;
@@ -840,7 +840,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -860,7 +860,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 85";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 3;
@@ -870,7 +870,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1755;
 		vrLoc = 1161;
@@ -880,7 +880,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -890,7 +890,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -900,7 +900,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 1161;
@@ -930,7 +930,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -950,7 +950,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -970,7 +970,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -990,7 +990,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -1010,7 +1010,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 88";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 1815;
@@ -1030,7 +1030,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 89";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 1740;
@@ -1060,7 +1060,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 91";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1763;
 		vrLoc = 1162;
@@ -1077,7 +1077,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 89";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 1948;
@@ -1087,7 +1087,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2811;
@@ -1097,7 +1097,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 2811;
@@ -1127,7 +1127,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 2147;
@@ -1137,7 +1137,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2811;
@@ -1147,7 +1147,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 2147;
@@ -1157,7 +1157,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 2811;
@@ -1167,7 +1167,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 2147;
@@ -1195,7 +1195,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2811;
@@ -1205,7 +1205,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 2601;
@@ -1215,7 +1215,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 2547;
@@ -1243,7 +1243,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2811;
@@ -1263,7 +1263,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1566;
 		vrLoc = 1815;
@@ -1273,7 +1273,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1566;
 		vrLoc = 1815;
@@ -1283,7 +1283,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2811;
@@ -1293,7 +1293,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1566;
 		vrLoc = 1815;
@@ -1320,7 +1320,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 118";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 2580;
@@ -1340,7 +1340,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1028;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 1073;
@@ -1350,7 +1350,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 97";
 		rLen = 0;
-		rLoc = 2630;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1622;
 		vrLoc = 1812;
@@ -1360,7 +1360,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 95";
 		rLen = 0;
-		rLoc = 2605;
+		rLoc = 2600;
 		rType = 0;
 		vrLen = 1766;
 		vrLoc = 1161;
@@ -1370,7 +1370,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 2580;
@@ -1390,7 +1390,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 95";
 		rLen = 0;
-		rLoc = 2605;
+		rLoc = 2600;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 1161;
@@ -1400,7 +1400,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 2547;
@@ -1410,7 +1410,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 698;
 		vrLoc = 2811;
@@ -1420,7 +1420,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 2547;
@@ -1447,7 +1447,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 112";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 2811;
@@ -1457,7 +1457,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 5198;
@@ -1467,7 +1467,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1487,7 +1487,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1497,7 +1497,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1507,7 +1507,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1527,7 +1527,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1537,7 +1537,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 3731;
@@ -1557,7 +1557,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 2382;
@@ -1587,7 +1587,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 98";
 		rLen = 0;
-		rLoc = 2631;
+		rLoc = 2626;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 3731;
@@ -1607,7 +1607,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 301;
@@ -1617,7 +1617,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 301;
@@ -1627,7 +1627,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1637,7 +1637,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 80";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1537;
 		vrLoc = 1472;
@@ -1677,7 +1677,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1697,7 +1697,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1717,7 +1717,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1737,7 +1737,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1757,7 +1757,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 510;
@@ -1777,7 +1777,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 82";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 1469;
@@ -1787,7 +1787,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 91";
 		rLen = 0;
-		rLoc = 2521;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 1525;
 		vrLoc = 1469;
@@ -1797,7 +1797,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1807,7 +1807,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 199";
 		rLen = 0;
-		rLoc = 5887;
+		rLoc = 5882;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 5206;
@@ -1837,7 +1837,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1867,7 +1867,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 32";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1028;
 		rType = 0;
 		vrLen = 1608;
 		vrLoc = 0;
@@ -1877,7 +1877,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 199";
 		rLen = 0;
-		rLoc = 5887;
+		rLoc = 5882;
 		rType = 0;
 		vrLen = 1675;
 		vrLoc = 1159;
@@ -1897,7 +1897,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1917,7 +1917,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1957,7 +1957,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 65";
 		rLen = 0;
-		rLoc = 1694;
+		rLoc = 1689;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 1159;
@@ -1967,7 +1967,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 29";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 686;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 301;
@@ -1977,7 +1977,7 @@
 		fRef = 1F5B3A4E1306C90000BE6E85 /* KGAccordionViewController.m */;
 		name = "KGAccordionViewController.m: 65";
 		rLen = 0;
-		rLoc = 1694;
+		rLoc = 1689;
 		rType = 0;
 		vrLen = 1627;
 		vrLoc = 1159;
@@ -2017,7 +2017,7 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 39";
 		rLen = 0;
-		rLoc = 1197;
+		rLoc = 1192;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 0;
@@ -2027,23 +2027,23 @@
 		fRef = 1D3623250D0F684500981E51 /* KGAccordionAppDelegate.m */;
 		name = "KGAccordionAppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1289;
+		rLoc = 1284;
 		rType = 0;
 		vrLen = 1378;
 		vrLoc = 0;
 	};
 	1FD8620C1306CCCA000578FA /* KGBladeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 656}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 633}}";
 			sepNavSelRange = "{986, 0}";
 			sepNavVisRange = "{0, 1061}";
 		};
 	};
 	1FD8620D1306CCCA000578FA /* KGBladeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 2436}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 2450}}";
 			sepNavSelRange = "{3581, 0}";
-			sepNavVisRange = "{0, 1066}";
+			sepNavVisRange = "{7, 1059}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -2327,9 +2327,9 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {897, 633}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 366}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 633}}";
+			sepNavSelRange = "{105, 0}";
+			sepNavVisRange = "{0, 361}";
 		};
 	};
 }

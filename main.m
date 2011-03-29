@@ -3,7 +3,7 @@
 //  KGAccordion
 //
 //  Created by Kyle Goddard on 11-02-12.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Kyle Goddard. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
