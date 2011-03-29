@@ -1,0 +1,18 @@
+KGAccordion ALPHA 0.1a
+
+Required Classes:
+KGAccordionViewController.h/.m
+KGBladeViewController.h/.m
+
+To initialize the accordion use:
+[[KGAccordionViewController alloc] initWithNumberOfBlades:4 triggerWidth:50];
+
+There is an example in the app delegate.
+
+Future Features:
+* Exceptions for trigger and blade sizes that cause issues, ie: 0 or less than 0 sizes, sizes that exceed max width.
+* Convenience methods for adding content to content areas and trigger areas based on indexes or blade objects.
+* bug fixes.
+
+Questions or Comments:
+kylegoddard@gmail.com
