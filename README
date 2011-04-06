@@ -12,6 +12,7 @@ There is an example in the app delegate.
 Future Features:
 * Exceptions for trigger and blade sizes that cause issues, ie: 0 or less than 0 sizes, sizes that exceed max width.
 * Convenience methods for adding content to content areas and trigger areas based on indexes or blade objects.
+* Tests
 * bug fixes.
 
 Questions or Comments:
