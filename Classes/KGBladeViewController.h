@@ -26,6 +26,7 @@
 	UIColor *_contentViewBackgroundColor;
 	
 	float _triggerWidth;
+	int _alignment;
 	
 	id <KGBladeViewControllerDelegate> _delegate;
 
@@ -34,10 +35,11 @@
 @property (nonatomic, retain)UIView *triggerView;
 @property (nonatomic, retain)UIView *contentView;
 @property (nonatomic, assign)float triggerWidth;
+@property (nonatomic, assign)int alignment;
 @property (nonatomic, retain)id <KGBladeViewControllerDelegate> delegate;
 @property (nonatomic, retain)UIColor *triggerColor;
 @property (nonatomic, retain)UIColor *contentViewBackgroundColor;
 
-- (id)initWithFrame:(CGRect)theFrame andTriggerWidth:(float)width;
+- (id)initWithFrame:(CGRect)theFrame andTriggerWidth:(float)width andAlignment:(int)align;
 
 @end

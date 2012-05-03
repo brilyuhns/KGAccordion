@@ -21,6 +21,7 @@
 @synthesize triggerWidth = _triggerWidth;
 @synthesize delegate = _delegate;
 @synthesize blades = _blades;
+@synthesize alignment = _alignment;
 
 @synthesize evenTriggerColor = _evenTriggerColor;
 @synthesize oddTriggerColor = _oddTriggerColor;
@@ -38,6 +39,7 @@
 		NSLog(@"KGAccordionViewController::Init Data: numberOfBlades => %d, width => %f", numberOfBlades, width);
 		[self setBladeCount:numberOfBlades];
 		[self setTriggerWidth:width];
+		[self setAlignment: 1];
 		if (self.blades == nil) {
 			self.blades = [[NSMutableArray alloc] init];
 		}
@@ -45,6 +47,19 @@
 	return self;
 }
 
+- (id)initWithNumberOfBlades:(int)numberOfBlades triggerWidth:(float)width align:(int)align{ 
+	self = [super init];
+	if (self) {
+		NSLog(@"KGAccordionViewController::Init Data: numberOfBlades => %d, width => %f", numberOfBlades, width);
+		[self setBladeCount:numberOfBlades];
+		[self setTriggerWidth:width];
+		[self setAlignment:align];
+		if (self.blades == nil) {
+			self.blades = [[NSMutableArray alloc] init];
+		}
+	}
+	return self;
+}
 
 #pragma mark -
 #pragma mark View Management
@@ -55,11 +70,18 @@
 - (void)loadView {
 	[super loadView];
 	NSLog(@"KGAccordionViewController::Loading View With Data: bladeCount => %d, triggerWidth => %f", self.bladeCount, self.triggerWidth);
-	
-	float maxWidth = self.view.frame.size.width;
-	float totalTriggerSize = self.triggerWidth * self.bladeCount;
-	bladeSize = maxWidth - (totalTriggerSize - self.triggerWidth);
-	
+	float maxWidth,totalTriggerSize;
+	if(self.alignment==1) {
+		maxWidth = self.view.frame.size.width;
+		totalTriggerSize = self.triggerWidth * self.bladeCount;
+		bladeSize = maxWidth - (totalTriggerSize - self.triggerWidth);
+	}
+	else {
+		maxWidth = self.view.frame.size.height;
+		totalTriggerSize = self.triggerWidth * self.bladeCount;
+		bladeSize = maxWidth - (totalTriggerSize - self.triggerWidth);
+	}
+
 	for (int i = 0; i < self.bladeCount; i++) {
 		
 		if (i % 2 == 0) {
@@ -74,14 +96,17 @@
 			}
 		}		
 		
-		KGBladeViewController *bladeView = [[KGBladeViewController alloc] initWithFrame:self.view.frame andTriggerWidth:self.triggerWidth];
+		KGBladeViewController *bladeView = [[KGBladeViewController alloc] initWithFrame:self.view.frame andTriggerWidth:self.triggerWidth andAlignment:self.alignment];
+	
 		[bladeView setDelegate:self];
 		
 		// Calculate the frame of this blade. if the number of blades will cause the x-size in the blade to be less than the trigger width
 		// throw an exception.
 		
-		CGRect bladeFrame = CGRectMake(self.triggerWidth * i, 0, bladeSize, self.view.frame.size.height);
-		
+		CGRect bladeFrame = (self.alignment == 0)? 
+			CGRectMake(self.triggerWidth * i , 0, bladeSize, self.view.frame.size.height):
+			CGRectMake(0,self.triggerWidth * i, self.view.frame.size.width, bladeSize);
+
 		[bladeView.view setFrame:bladeFrame];
 		
 		[self.blades addObject:bladeView];
@@ -123,18 +148,32 @@
 		// Close the blades that precede the target blade.
 		for (int i = 0; i < [self.blades indexOfObject:bladeView]; i++) {
 			KGBladeViewController *closedBlade = [self.blades objectAtIndex:i];
-			[closedBlade.view setFrame:CGRectMake(self.triggerWidth * i, 
-												  closedBlade.view.frame.origin.y, 
-												  closedBlade.triggerView.frame.size.width, 
-												  closedBlade.triggerView.frame.size.height)];
+			CGRect closedBladeFrame = (self.alignment == 0) ?
+				CGRectMake(self.triggerWidth * i, 
+					closedBlade.view.frame.origin.y, 
+					closedBlade.triggerView.frame.size.width, 
+					closedBlade.triggerView.frame.size.height):
+				CGRectMake(closedBlade.view.frame.origin.x, 
+				  self.triggerWidth * i, 
+					closedBlade.triggerView.frame.size.width, 
+					closedBlade.triggerView.frame.size.height);
+			
+			[closedBlade.view setFrame:closedBladeFrame];
 			NSLog(@"KGAccordionViewController::Pre ClosedBlade Frame: %@", NSStringFromCGRect(closedBlade.view.frame));
 		}
 		
 		// Get the index of the bladeView in the blades array.
-		[bladeView.view setFrame:CGRectMake(self.triggerWidth * [self.blades indexOfObject:bladeView], 
-											bladeView.view.frame.origin.y, 
-											bladeSize, 
-											self.view.frame.size.height)];
+		CGRect bladeViewFrame = (self.alignment == 0)?
+			CGRectMake(self.triggerWidth * [self.blades indexOfObject:bladeView], 
+					 bladeView.view.frame.origin.y, 
+					 bladeSize, 
+								 self.view.frame.size.height):
+		CGRectMake(bladeView.view.frame.origin.x, 
+							 self.triggerWidth * [self.blades indexOfObject:bladeView],
+							 self.view.frame.size.width,
+							 bladeSize);
+		
+		[bladeView.view setFrame:bladeViewFrame];
 		NSLog(@"KGAccordionViewController::BladeView Frame: %@", NSStringFromCGRect(bladeView.view.frame));
 		
 		// Close the blades that follow the target blade.
@@ -142,10 +181,15 @@
 			KGBladeViewController *closedBlade = [self.blades objectAtIndex:j];
 			NSLog(@"KGAccordionViewController::Following ClosedBlade: %@ Incrementer Value: %d", closedBlade, j);
 			
-			CGRect tmpRect = CGRectMake(self.view.frame.size.width - (self.triggerWidth * ([self.blades count] - j)), 
-										closedBlade.view.frame.origin.y, 
-										self.triggerWidth, 
-										closedBlade.triggerView.frame.size.height);
+			CGRect tmpRect = (self.alignment == 0)?
+				CGRectMake(self.view.frame.size.width - (self.triggerWidth * ([self.blades count] - j)), 
+					closedBlade.view.frame.origin.y, 
+					self.triggerWidth, 
+					closedBlade.triggerView.frame.size.height):
+				CGRectMake(closedBlade.view.frame.origin.x, 
+					self.view.frame.size.height - (self.triggerWidth * ([self.blades count] - j)), 
+					closedBlade.triggerView.frame.size.width,
+					self.triggerWidth );
 			
 			[closedBlade.view setFrame:tmpRect];
 			[self.view bringSubviewToFront:closedBlade.view];

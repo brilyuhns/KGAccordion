@@ -21,6 +21,7 @@
 @synthesize triggerView = _triggerView;
 @synthesize contentView = _contentView;
 @synthesize triggerWidth = _triggerWidth;
+@synthesize alignment = _alignment;
 @synthesize delegate = _delegate;
 @synthesize triggerColor = _triggerColor;
 @synthesize contentViewBackgroundColor = _contentViewBackgroundColor;
@@ -29,10 +30,11 @@
 #pragma mark Initialization
 #pragma mark -
 
-- (id)initWithFrame:(CGRect)theFrame andTriggerWidth:(float)width {
+- (id)initWithFrame:(CGRect)theFrame andTriggerWidth:(float)width andAlignment:(int)align{
 	self = [super init];
 	if (self) {
 		[self setTriggerWidth:width];
+		[self setAlignment:align];
 	}
 	return self;
 }

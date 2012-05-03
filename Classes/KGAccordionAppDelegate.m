@@ -25,7 +25,7 @@
 	[rootViewController.view setBackgroundColor:[UIColor blueColor]];
 	[self.window addSubview:rootViewController.view];
 	
-	accordion = [[KGAccordionViewController alloc] initWithNumberOfBlades:4 triggerWidth:50];
+	accordion = [[KGAccordionViewController alloc] initWithNumberOfBlades:4 triggerWidth:50 align:1];
 	accordion.evenTriggerColor = [UIColor darkGrayColor];
 	accordion.oddTriggerColor = [UIColor grayColor];
 	accordion.contentBackgroundColor = [UIColor lightGrayColor];

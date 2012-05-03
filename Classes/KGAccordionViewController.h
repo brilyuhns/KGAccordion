@@ -26,6 +26,7 @@
 	int _bladeCount;
 	float _triggerWidth;
 	float bladeSize;
+	int _alignment;
 
 	id <KGAccordionViewControllerDelegate> _delegate;
 	
@@ -38,6 +39,7 @@
 
 @property (nonatomic, assign)int bladeCount;
 @property (nonatomic, assign)float triggerWidth;
+@property (nonatomic, assign)int alignment;
 @property (nonatomic, retain)id <KGAccordionViewControllerDelegate> delegate;
 @property (nonatomic, retain)NSMutableArray *blades;
 
@@ -48,5 +50,6 @@
 @property (nonatomic, readonly, retain) UIColor *triggerColor;
 
 - (id)initWithNumberOfBlades:(int)numberOfBlades triggerWidth:(float)width;
+- (id)initWithNumberOfBlades:(int)numberOfBlades triggerWidth:(float)width align:(int)align;
 
 @end
