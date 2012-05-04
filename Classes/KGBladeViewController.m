@@ -55,7 +55,12 @@
 	[self.view setFrame:parentFrame];
 	
 	// Prepare the trigger of the blade.
-	CGRect triggerFrame = CGRectMake(0, 0, self.triggerWidth, self.view.frame.size.height);
+	
+	CGRect triggerFrame = (self.alignment == 0) ? 
+		CGRectMake(0, 0, self.triggerWidth, self.view.frame.size.height):
+		CGRectMake(0, 0, self.view.frame.size.width, self.triggerWidth);
+	NSLog(@"%f,%f,%f,%f",triggerFrame.origin.x,triggerFrame.origin.y,triggerFrame.size.width,triggerFrame.size.height);
+	
 	self.triggerView = [[UIView alloc] init];
 	[self.triggerView setFrame:triggerFrame];
 	[self.triggerView setBackgroundColor:[self triggerColor]];
@@ -64,7 +69,9 @@
 	[self.triggerView release];
 
 	// Prepare the content area of the blade.
-	CGRect contentFrame = CGRectMake(self.triggerWidth, 0, self.view.frame.size.width - self.triggerWidth, self.view.frame.size.height);
+	CGRect contentFrame = (self.alignment == 0) ? 
+		CGRectMake(self.triggerWidth, 0, self.view.frame.size.width - self.triggerWidth, self.view.frame.size.height):
+		CGRectMake(0, self.triggerWidth, self.view.frame.size.width, self.view.frame.size.height - self.triggerWidth);
 	self.contentView = [[UIView alloc] init];
 	[self.contentView setFrame:contentFrame];
 	[self.contentView setBackgroundColor:[self contentViewBackgroundColor]];
