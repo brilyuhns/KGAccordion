@@ -39,7 +39,7 @@
 		NSLog(@"KGAccordionViewController::Init Data: numberOfBlades => %d, width => %f", numberOfBlades, width);
 		[self setBladeCount:numberOfBlades];
 		[self setTriggerWidth:width];
-		[self setAlignment: 1];
+		[self setAlignment: 0];
 		if (self.blades == nil) {
 			self.blades = [[NSMutableArray alloc] init];
 		}
